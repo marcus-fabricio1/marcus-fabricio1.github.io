@@ -1,0 +1,361 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: none;
+}
+body{
+    background-color: #ecf4fc;
+}
+
+/*Style Tela Login*/
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    
+}
+.div-right, .div-left{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 50vw;
+}
+img{
+    width: 70%;
+    max-width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 60%;
+    align-items: center;
+    background-color: #34148c;
+    border-radius: 10px;
+    padding: 25px;
+}
+h3{
+    margin: 40px;
+    font-size: 40px;
+    color: #77ffc0;
+}
+.input-form{
+    padding: 15px;
+    margin-bottom: 25px;
+    width: 400px;
+    border-radius: 10px;
+    background: white;
+    font-size: 25px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+.a{
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    background: #77ffc0;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/*Style Tela Dashboard*/
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+    margin-bottom: 40px;
+    background-color: #34148c;
+}
+.icon-nav{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.a-nav{
+    color: #ecf4fc;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 130px;
+}
+.main{
+    max-width: 45%;
+    margin-left: 40px;
+    padding-left: 50px;
+}
+.main>fieldset{
+    background: white;
+}
+.main>fieldset>legend{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.field{
+    margin: 40px 0;
+}
+.entrada, .saldo, .saida{
+    padding: 25px 35px;
+}
+.saldo{
+    color: blue;
+    font-size: 25px;
+}
+.entrada{
+    color: green;
+    font-size: 25px;
+}
+.saida{
+    color: red;
+    font-size: 25px;
+}
+.titulo_grafico{
+    position: relative;
+    left: 1285px;
+    top: -430px;
+    font-size: 25px;
+}
+.des_grafico{
+    position: relative;
+    left: 1330px;
+    top: -400px;
+    font-size: 15px;
+}  
+.grafico1{
+    position: relative;
+    left: 950px;
+    top: -400px;
+    width: 400px;
+}
+.grafico2{
+    position: relative;
+    left: 1100px;
+    top: -400px;
+    width:400px;
+}
+
+
+/*Style Tela Nova Entrada*/
+
+.main-entrada, .main-despesa{
+    background: #109010;
+    display: flex;
+    width: 40vw;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+h1{
+    color: black;
+    padding: 25px 0;
+    font-size: 40px;
+}
+label{
+    color: black;
+    font-size: 25px;
+    align-self: start;
+}
+.input{
+    background: white;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.div-form{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    height: 100px;
+    width: 250px;
+    background: white;
+}
+button{
+    padding: 9px;
+    background: #34148c;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.a-entrada{
+    padding-right: 15px;
+}
+
+/*Style Tela de Despesas*/
+
+.main-despesa{
+    background: #ec5353;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+
+/*Style Tela Contas*/
+
+.main-conta{
+    display: flex;
+    width: 100vw;
+    max-width: 100%;
+}
+.conta>fieldset{
+    background: white;
+}
+.conta{
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    margin: auto;
+}
+.field-left{
+    display: flex;
+    width: 100%;
+}
+.field-left>legend{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.conta-brasil, .conta-bradesco{
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    margin: 50px;
+}
+.h3{
+    margin: 0;
+    color:#109010;
+}
+.conta-saldo-total{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    margin: auto;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+.field-right{
+    padding: 25px;
+    background: white;
+}
+.S{
+    font-size: 25px;
+}
+.span-saldo-total{
+    font-size: 30px;
+    color: #109010;
+}
+.button-nova-conta{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+    color: black;
+}
+.a-conta{
+    color: #ecf4fc;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*Style Tela Nova Conta*/
+
+.main-nova-conta{
+    background: #109010;
+    display: flex;
+    width: 40vw;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.div-conta{
+    display: flex;
+    flex-direction: column;
+}
+.input-conta{
+    background: white;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.div-conta > select{
+    font-size: 25px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 45px;
+    width: 300px;
+}
+
+/*Style Relatorio*/
+
+.fundorelatorio{
+    background-color: #ecf4fc;
+}
+.relatorio {
+    display: flex;
+    width: 45vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.field-rela>legend{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.titulo {
+    padding: 12px;
+    background-color: #34148c;
+    color: white;
+    font-size: 20px;
+}
+
+.linha:nth-child(even) {
+    background-color: #efecf3;
+}
+
+.linha:hover {
+    background-color: #ecf4fc;
+}
+
+.data, .descricao {
+    color: black;
+    font-size: 25px;
+    padding: 0 35px;
+}
+
+
+
+
+
+
